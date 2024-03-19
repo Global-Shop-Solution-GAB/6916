@@ -1,0 +1,59 @@
+<script type="text/javascript">
+$(function() {
+  $("tr").each(function() {
+    var Priority = $(this).find("td:eq(2)").text();
+	if (Priority == "999") {   		
+		$(this).find("td:eq(1)").css("background","Salmon");  
+      		$(this).find("td:eq(2)").css("background","Salmon");  
+      		$(this).find("td:eq(3)").css("background","Salmon"); 
+      		$(this).find("td:eq(4)").css("background","Salmon"); 
+      		$(this).find("td:eq(5)").css("background","Salmon"); 
+      		$(this).find("td:eq(6)").css("background","Salmon"); 
+      		$(this).find("td:eq(7)").css("background","Salmon"); 
+      		$(this).find("td:eq(8)").css("background","Salmon"); 
+      		$(this).find("td:eq(9)").css("background","Salmon");
+      		$(this).find("td:eq(10)").css("background","Salmon");
+      		$(this).find("td:eq(11)").css("background","Salmon");
+      		$(this).find("td:eq(12)").css("background","Salmon");
+      		$(this).find("td:eq(13)").css("background","Salmon");
+      		$(this).find("td:eq(14)").css("background","Salmon");
+      		$(this).find("td:eq(15)").css("background","Salmon");
+      		$(this).find("td:eq(16)").css("background","Salmon");
+    	} else if (Priority == "998") {
+		$(this).find("td:eq(1)").css("background","Orange");  
+      		$(this).find("td:eq(2)").css("background","Orange");  
+      		$(this).find("td:eq(3)").css("background","Orange"); 
+      		$(this).find("td:eq(4)").css("background","Orange"); 
+      		$(this).find("td:eq(5)").css("background","Orange"); 
+      		$(this).find("td:eq(6)").css("background","Orange"); 
+      		$(this).find("td:eq(7)").css("background","Orange"); 
+      		$(this).find("td:eq(8)").css("background","Orange"); 
+      		$(this).find("td:eq(9)").css("background","Orange");
+      		$(this).find("td:eq(10)").css("background","Orange");
+      		$(this).find("td:eq(11)").css("background","Orange");
+      		$(this).find("td:eq(12)").css("background","Orange");
+      		$(this).find("td:eq(13)").css("background","Orange");
+      		$(this).find("td:eq(14)").css("background","Orange");
+      		$(this).find("td:eq(15)").css("background","Orange");
+      		$(this).find("td:eq(16)").css("background","Orange");
+	}else if (Priority == "997") {
+		$(this).find("td:eq(1)").css("background","Yellow");  
+      		$(this).find("td:eq(2)").css("background","Yellow");  
+      		$(this).find("td:eq(3)").css("background","Yellow"); 
+      		$(this).find("td:eq(4)").css("background","Yellow"); 
+      		$(this).find("td:eq(5)").css("background","Yellow"); 
+      		$(this).find("td:eq(6)").css("background","Yellow"); 
+      		$(this).find("td:eq(7)").css("background","Yellow"); 
+      		$(this).find("td:eq(8)").css("background","Yellow"); 
+      		$(this).find("td:eq(9)").css("background","Yellow");
+      		$(this).find("td:eq(10)").css("background","Yellow");
+      		$(this).find("td:eq(11)").css("background","Yellow");
+      		$(this).find("td:eq(12)").css("background","Yellow");
+      		$(this).find("td:eq(13)").css("background","Yellow");
+      		$(this).find("td:eq(14)").css("background","Yellow");
+      		$(this).find("td:eq(15)").css("background","Yellow");
+      		$(this).find("td:eq(16)").css("background","Yellow");
+	}
+  });
+}); 
+</script>
